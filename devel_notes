@@ -1,0 +1,15 @@
+- na vstupu je CSV se dvema sloupci  (separator must be '|')
+	1. primary key (id zaznamu)
+	2. query string (zapis adresy)
+
+- parametry
+	1. CSV file name
+	2. country code (e.g. cz, de, uk...... default 0  => no country limit)
+	3. add request (0/1 default 1)
+	4. no_annotations (0/1 - dafault 1)
+	5. API KEY
+	6. sleep time (default 0) -- podle request limitu zvoleneho uctu
+	7. parametr one_result  - všechny výsledky vs. výsledek s nejvyšší confidence
+
+
+
